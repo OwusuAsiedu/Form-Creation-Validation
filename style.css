@@ -10,24 +10,17 @@ body {
 
 form {
     background: #ffffff;
-    padding: 25px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
-}
-
-h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
 }
 
 label {
     margin-bottom: 5px;
     font-weight: bold;
     color: #333;
-    display: block;
 }
 
 input {
@@ -37,7 +30,6 @@ input {
     border-radius: 4px;
     width: calc(100% - 22px);
     box-sizing: border-box;
-    font-size: 15px;
 }
 
 button {
@@ -61,7 +53,5 @@ button:hover {
     margin-top: 10px;
     padding: 10px;
     border-radius: 4px;
-    display: none;
-    font-weight: bold;
-    text-align: center;
+    display: none; /* Initially hidden */
 }
